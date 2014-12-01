@@ -1,6 +1,8 @@
 ## Capify-EC2
 __Note__: This fork of [capify-ec2](https://github.com/forward/capify-ec2) is a temporary measure until [Pull Request 61](https://github.com/forward/capify-ec2/pull/61) is merged giving the original project support for AWS' temporary security credentials. Once this aforementioned PR is merged, this repo can be deleted.
 
+__Update__: The [PR](https://github.com/forward/capify-ec2/pull/61) has been [merged](https://github.com/forward/capify-ec2/commit/4a5686771efe56355223e3f5e071b93a91d5baac) and is curretnly in testing with branch v1.8.0.pre2. This repo should be deleted once all projects have been migrated away from using this repo and using the proper repo of [capify-ec2](https://github.com/forward/capify-ec2).
+
 Capify-EC2 is used to generate Capistrano namespaces and tasks from Amazon EC2 instance tags, dynamically building the list of servers to be deployed to.
 
 __Note__: Capistrano 3 is completely incompatible with Capistrano 2, and therefore Capify-EC2 will not function with Capistrano 3. If you are using Capistrano 3, you can use [Cap-EC2](https://github.com/forward3d/cap-ec2), however note that the configuration (`config/ec2.yml`) is not compatible between Capify-EC2 and Cap-EC2.
