@@ -1,3 +1,6 @@
+## !REPO is moved to stash: https://stash.merck.com/projects/MSL/repos/capify-ec2/browse
+## !Please do not use this repository anymore
+
 ## Capify-EC2
 __Note__: This fork of [capify-ec2](https://github.com/forward/capify-ec2) is a temporary measure until [Pull Request 61](https://github.com/forward/capify-ec2/pull/61) is merged giving the original project support for AWS' temporary security credentials. Once this aforementioned PR is merged, this repo can be deleted.
 
